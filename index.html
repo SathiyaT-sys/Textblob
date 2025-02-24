@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Sentiment Analysis Tool</h1>
+    <form method="POST">
+        <input type="text" name="text" placeholder="Enter Text" required>
+        <button type="Submit">Analyze Sentiment</button>
+    </form>
+    <div class="result">
+        {{ sentiment }}
+    </div>
+</div>
+</body>
+</html>
